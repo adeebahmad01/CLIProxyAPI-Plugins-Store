@@ -1085,9 +1085,9 @@
     {
       "id": "opencode-session-mapper",
       "name": "OpenCode Session Mapper",
-      "description": "Focused session-affinity interceptor for OpenCode Zen: maps Codex, Claude Code, and DeepSeek Harness conversation headers to x-opencode-session, preserves a client-supplied value, and falls back to host canonical_session_id when no source header exists. v0.3.1 validates IDs and fails closed on conflicts; it does not add quota or account-management UI.",
+      "description": "Focused session-affinity interceptor for OpenCode Zen: maps Codex, Claude Code, and DeepSeek Harness conversation headers to x-opencode-session, preserves a client-supplied value, and falls back to host canonical_session_id when no source header exists. v0.3.2 adds bounded 64 MiB Host-envelope compatibility for multi-megabyte request bodies while retaining ID validation and conflict handling; it does not add quota or account-management UI.",
       "author": "ahoo",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "repository": "https://github.com/ahoo/cpa-plugin-opencode-session-mapper",
       "homepage": "https://github.com/ahoo/cpa-plugin-opencode-session-mapper",
       "license": "MIT",
