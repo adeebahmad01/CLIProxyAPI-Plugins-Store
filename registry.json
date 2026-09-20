@@ -1022,6 +1022,21 @@
       ]
     },
     {
+      "id": "commandcode-go-cliproxyapi",
+      "name": "CommandCode Go/GOAT/Pro/Max",
+      "description": "CommandCode Go/GOAT/Pro/Max provider: chat-completions upstream with reasoning preserved for openai, claude, and openai-response clients, host-scheduled shared key pool, and a quota page backed by the CommandCode account API.",
+      "author": "mczhoucn",
+      "version": "0.1.0",
+      "repository": "https://github.com/mczhoucn/commandcode-go-cliproxyapi",
+      "homepage": "https://github.com/mczhoucn/commandcode-go-cliproxyapi",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "commandcode",
+        "reasoning"
+      ]
+    },
+    {
       "id": "antigravity-proactive-refresh",
       "name": "Antigravity Proactive Refresh",
       "description": "Proactively rotates Google Antigravity OAuth access tokens and provides a management-key-protected status and refresh dashboard.",
