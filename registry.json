@@ -1233,6 +1233,21 @@
         "codex",
         "routing"
       ]
+    },
+    {
+      "id": "request-rewrite",
+      "name": "CPA Request Rewrite",
+      "description": "Rewrites configured system and developer prompt text for selected upstream formats using ordered literal or regex rules with protocol-aware scopes.",
+      "author": "cuteyuchen",
+      "repository": "https://github.com/cuteyuchen/cpa-plugin-request-rewrite",
+      "homepage": "https://github.com/cuteyuchen/cpa-plugin-request-rewrite",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Compatibility",
+        "OpenAI",
+        "Responses"
+      ]
     }
   ]
 }
