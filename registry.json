@@ -1124,6 +1124,22 @@
         "Usage",
         "Quota"
       ]
+    },
+    {
+      "id": "usage-query",
+      "name": "Usage Query",
+      "description": "Persists per-request token usage, exposes GET /v0/management/usage-stats and query/export APIs, and provides a management dashboard. Compatible with QuotaPlane and other control planes.",
+      "author": "abc35277",
+      "version": "0.1.0",
+      "repository": "https://github.com/abc35277/cpa-plugin-usage-query",
+      "homepage": "https://github.com/abc35277/cpa-plugin-usage-query",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Usage",
+        "Statistics",
+        "Dashboard"
+      ]
     }
   ]
 }
