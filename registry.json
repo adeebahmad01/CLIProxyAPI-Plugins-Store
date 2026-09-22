@@ -468,7 +468,7 @@
     {
       "id": "cpa-apply-patch",
       "name": "Apply Patch Bridge",
-      "description": "Bridges the Codex client's native apply_patch tool to backends without freeform custom-tool support (Claude, etc.): rewrites custom tools into {\"input\": string} function tools on the request path and restores custom_tool_call events on the response path, so structured patch edits, diff review cards, and one-click undo work for every model behind the proxy. | 让 Codex 客户端在 Claude 等不支持 freeform custom 工具的后端上恢复原生 apply_patch:请求方向把 custom 工具改写为 {\"input\": string} 函数工具,响应方向还原 custom_tool_call 事件族,结构化补丁编辑、差异审核卡与一键撤销对代理后的所有模型可用。",
+      "description": "Bridges the Codex client's native apply_patch tool to backends without freeform custom-tool support (Claude, etc.): rewrites custom tools into {\"input\": string} function tools on the request path and restores custom_tool_call events on the response path, so structured patch edits, diff review cards, and one-click undo work for every model behind the proxy. | \u8ba9 Codex \u5ba2\u6237\u7aef\u5728 Claude \u7b49\u4e0d\u652f\u6301 freeform custom \u5de5\u5177\u7684\u540e\u7aef\u4e0a\u6062\u590d\u539f\u751f apply_patch:\u8bf7\u6c42\u65b9\u5411\u628a custom \u5de5\u5177\u6539\u5199\u4e3a {\"input\": string} \u51fd\u6570\u5de5\u5177,\u54cd\u5e94\u65b9\u5411\u8fd8\u539f custom_tool_call \u4e8b\u4ef6\u65cf,\u7ed3\u6784\u5316\u8865\u4e01\u7f16\u8f91\u3001\u5dee\u5f02\u5ba1\u6838\u5361\u4e0e\u4e00\u952e\u64a4\u9500\u5bf9\u4ee3\u7406\u540e\u7684\u6240\u6709\u6a21\u578b\u53ef\u7528\u3002",
       "author": "zhangziming1124",
       "repository": "https://github.com/zhangziming1124/cpa-apply-patch",
       "homepage": "https://github.com/zhangziming1124/cpa-apply-patch",
@@ -565,7 +565,7 @@
       "name": "Codex Auto Reset",
       "description": "Automatically redeems soonest-expiring Codex Reset Bank credits before they expire, with idempotent retry, triple verification, and a bilingual management UI with reset statistics.",
       "author": "Jeffery",
-      "version": "0.1.0",
+      "version": "0.1.8",
       "repository": "https://github.com/JefferyZhang2019/cpa-plugin-codex-auto-reset",
       "homepage": "https://github.com/JefferyZhang2019/cpa-plugin-codex-auto-reset",
       "license": "MIT",
@@ -838,8 +838,8 @@
     },
     {
       "id": "api-key-manager",
-      "name": "API Key 管理器",
-      "description": "为 CLIProxyAPI API Key 增加名称、备注，并提供 API Key 的增删改查管理页面。",
+      "name": "API Key \u7ba1\u7406\u5668",
+      "description": "\u4e3a CLIProxyAPI API Key \u589e\u52a0\u540d\u79f0\u3001\u5907\u6ce8\uff0c\u5e76\u63d0\u4f9b API Key \u7684\u589e\u5220\u6539\u67e5\u7ba1\u7406\u9875\u9762\u3002",
       "author": "bmqy",
       "version": "0.1.7",
       "repository": "https://github.com/bmqy/cpa-plugin-apikey-manager",
@@ -932,7 +932,7 @@
     {
       "id": "cursor",
       "name": "Cursor for CPA/CLIProxyAPI",
-      "description": "Adds user-authorized Cursor subscriptions as a CLIProxyAPI provider with OAuth login, dynamic model discovery, streaming OpenAI Chat Completions, bounded session checkpoints, stable tool-call IDs, empty-response validation, image and text attachments, separated request and host-attempt metrics, deduplicated account status, and bilingual model controls. | 将用户本人授权的 Cursor 订阅接入 CLIProxyAPI，提供 OAuth 登录、动态模型发现、OpenAI Chat Completions 流式调用、有界会话检查点、稳定工具调用 ID、空响应校验、图片与文本附件、分离的请求与宿主尝试指标、账户去重及中英文模型控制。",
+      "description": "Adds user-authorized Cursor subscriptions as a CLIProxyAPI provider with OAuth login, dynamic model discovery, streaming OpenAI Chat Completions, bounded session checkpoints, stable tool-call IDs, empty-response validation, image and text attachments, separated request and host-attempt metrics, deduplicated account status, and bilingual model controls. | \u5c06\u7528\u6237\u672c\u4eba\u6388\u6743\u7684 Cursor \u8ba2\u9605\u63a5\u5165 CLIProxyAPI\uff0c\u63d0\u4f9b OAuth \u767b\u5f55\u3001\u52a8\u6001\u6a21\u578b\u53d1\u73b0\u3001OpenAI Chat Completions \u6d41\u5f0f\u8c03\u7528\u3001\u6709\u754c\u4f1a\u8bdd\u68c0\u67e5\u70b9\u3001\u7a33\u5b9a\u5de5\u5177\u8c03\u7528 ID\u3001\u7a7a\u54cd\u5e94\u6821\u9a8c\u3001\u56fe\u7247\u4e0e\u6587\u672c\u9644\u4ef6\u3001\u5206\u79bb\u7684\u8bf7\u6c42\u4e0e\u5bbf\u4e3b\u5c1d\u8bd5\u6307\u6807\u3001\u8d26\u6237\u53bb\u91cd\u53ca\u4e2d\u82f1\u6587\u6a21\u578b\u63a7\u5236\u3002",
       "author": "yobo2u",
       "repository": "https://github.com/yobo2u/omsub",
       "homepage": "https://github.com/yobo2u/omsub/tree/cursor/cursor-plugin",
